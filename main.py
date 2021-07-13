@@ -29,10 +29,6 @@ class CafeForm(FlaskForm):
     submit = SubmitField('Submit')
 
 
-# Exercise:
-# Make the form write a new row into cafe-data.csv with if form.validate_on_submit()
-
-
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -65,4 +61,4 @@ def cafes():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
