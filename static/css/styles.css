@@ -1,0 +1,42 @@
+/* ================================= Vari ================================= */
+:root {
+    /* Background */
+    --bg-color: #333;
+
+    /* fonts and colors */
+    --font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+    --font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+    --color-primary: #fff;
+    --color-secondary: #fff;
+
+    /* Spacing */
+}
+
+/* ================================= Main ================================= */
+
+body {
+    background-color: var(--bg-color);
+    color: white;
+}
+
+a {
+    color: #ffc107;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    background-color: #333;
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+/* ================================= Misc ================================= */
